@@ -67,7 +67,7 @@ Verification is performed using **directed testbenches** with manual checking:
 | `sin_taylor_q824_tb.v` | `sin_taylor_q824.v` |
 | `sqrt_q824_tb.v` | `sqrt_q824.v` |
 
-Waveforms are inspected in GTKWave to validate outputs against expected values.
+Checking is done using the "$display" system function in Verilog to compare actual results with expected values.
 
 ## Testing
 To run simulations:
